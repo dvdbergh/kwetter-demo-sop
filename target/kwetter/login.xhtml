@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+</h:head>
+<h:body>
+    <h:panelGroup id="studenten">
+        <h:form class="form-signin">
+                <h2 class="form-signin-heading">Please sign in</h2>
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input id="inputEmail" class="form-control" />
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" class="form-control" />
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"/> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <h:commandButton  value ="Add" action="#{sessionJsp.login()}"/>
+        </h:form>
+    </h:panelGroup>
+</h:body>
+</html>
+
