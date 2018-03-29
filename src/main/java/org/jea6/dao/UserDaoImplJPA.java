@@ -15,7 +15,6 @@ import java.util.List;
 public class UserDaoImplJPA implements UserDao, Serializable {
 
 
-    @PersistenceContext(unitName = "kwetterPU")
     EntityManager em;
 
     /**

@@ -15,7 +15,6 @@ import java.util.List;
 @JPA
 public class TweetDaoImplJPA implements TweetDao {
 
-    @PersistenceContext(unitName = "kwetterPU")
     EntityManager em;
 
     /**
