@@ -11,7 +11,7 @@ import java.util.List;
 
 public class TweetController {
 
-    @Inject @JPA
+    @Inject
     TweetDao dao;
 
     @Inject

@@ -11,7 +11,7 @@ import javax.inject.Inject;
 @Stateless
 public class SessionController {
 
-    @Inject @JPA
+    @Inject
     UserDao dao;
 
     private User currentUser;

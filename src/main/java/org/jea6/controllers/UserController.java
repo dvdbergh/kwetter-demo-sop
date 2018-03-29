@@ -14,7 +14,7 @@ import java.util.List;
 @Stateless
 public class UserController implements Serializable{
 
-    @Inject @JPA
+    @Inject
     UserDao dao;
 
     @Inject
