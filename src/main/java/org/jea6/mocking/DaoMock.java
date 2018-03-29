@@ -15,7 +15,7 @@ import javax.inject.Inject;
 @Startup
 public class DaoMock {
 
-    @Inject @JPA
+    @Inject
     UserDao userDao;
 
 
